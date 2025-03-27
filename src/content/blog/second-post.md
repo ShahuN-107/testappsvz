@@ -1,16 +1,44 @@
 ---
-title: 'Second post'
-description: 'Lorem ipsum dolor sit amet'
+title: 'Interesting title you have there...'
+description: "It would be a shame if it made no sense to most readers, wouldn't it?"
 pubDate: 'Jul 15 2022'
 heroImage: '/blog-placeholder-4.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Fair point. My last (and first) post was on some philosophical sensible nonsense about why certain things are critically important to moving forward in life. Another principle that I firmly believe in is Toyota's Kaizen principle. If you haven't heard of it, check it out. The idea is often summarized as doing 1% better every day on your life's highest priority item(s). The mathematician in me is screaming that you cannot possibly improve by 1% every day, and then I realize the results can never be consistent nor that large a number. In the words of those annoying university textbooks, I'll leave that as a thought exercise to the reader as to why that's my opinion. (Feel free to comment below if you agree, or don't).
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+Kaizen in Action: Language Learning Imagine you're trying to learn a new language. Instead of trying to master it overnight, you decide to improve by 1% every day. This might mean learning a few new vocabulary words or having a short conversation with a native speaker. Over time, these small daily efforts will compound, and you'll find yourself becoming more fluent and confident in the language. I have a few friends who are learning new languages, and an App like Duolingo helps them quite a bit here.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Today's post is on the second part of the blog title:
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Optimization, one educated guess at a time
+How in the world does that work? What does an educated guess even mean? Interestingly, many of the current hot topics in the tech world today use this principle under the hood. If I had the time to do the research, I'd wager it's not only many but most of them do! The people who spend their time in the belly of this beast will already know where this is going. If you don't, don't worry - hopefully, this post will make it clear!
+
+Let's start with linear things
+Wikipedia describes linear programming (in extraordinary amounts of detail as Wikipedia does) as linear optimization. The first thing to note here is the word linear - what does that mean? It's just a straight line, right?
+
+Well, yes and no. There are different classifications of linear systems, however, when dealing with linear programming (I'll just start referring to it as LPs at this point, deal?) it quite literally refers to straight lines. More precisely, the straight lines here refer to constraints on some objective function. 
+
+Understanding Linear Programming Linear programming (LP) involves optimizing an objective function subject to linear constraints. Picture it as plotting a straight-line graph where each line represents a constraint. The goal is to find the best possible solution within these constraints.
+
+Linear Programming Example - Easy to spot the Maximum!
+
+In other words, what characteristics must the answer adhere to while maximizing some value described by an equation (or set of equations!). Now, it should be noted when dealing with systems (of equations) that are described this well linearly, the optimization process is less of a guessing game and more of a methodical strategy to obtain the best possible answer. It's very similar to chess - there is a very well-defined set of rules and clear objectives. Now, those familiar with the mathematics behind possible combinations in chess will be weary of the claim that a methodical strategy can obtain the best possible answer - but that claim holds true. Game theory simply requires perfect information for a turn-based game to be solvable. 
+
+The issue?
+
+The issue is a numbers game. We can describe the best possible outcome in some way, shape, or form. Many people have attempted this, but "solving" the game of chess is a hard problem that is not only computationally (time) complex but also spatially complex. Solving it for six pieces requires around 150GB of space, and for seven, 1.8TB. The solutions for eight pieces become jaw-dropping and are estimated to require 2 PB of space.
+
+My next post will be on non-linear optimization, which I suspect is more closely aligned with what the rest of life looks like. LP problems are a simplification of real-world problems (that does not mean that it isn't useful!).
+
+So what?
+Well, many things don't require analytically perfect solutions. Importantly, most practical optimization strategies don't need exact answers. Ignoring the risk of being stuck on a local maximum (for the purposes of this post at least), you only need to keep moving in the right direction with every iteration you make. If you do 1% better than the previous guess, on every guess, then at some point you will reach a threshold where improving by 1% is infeasible (let's say there's less than 1% between the current approximation and perfection for example). The trick? Knowing which direction is the right way to move. In mathematics, many gradient-descent or other approaches can assist with that, while in life, I find having just the right book (or blog!) at the right time will help with that guidance.
+
+Why Perfection Isn't Necessary Think of optimization like learning to play a musical instrument. You don't need to be perfect from the start. Each practice session, you aim to improve a little bit more. Over time, these small improvements add up to significant progress.
+
+I suspect most people aren't blessed with unending foresight, although some seem to be playing life by a different set of rules (Look at any of the somewhat incomprehensible accomplishments of Bezos, Musk, Mr Buffet, Bill Gates, Steve Jobs, and so many more).
+Great stuff
+Perfection isn't always necessary; doing a bit better each time can lead to significant progress over time, even if you don't have perfect foresight like some of the world’s most successful people.
+"Success is the sum of small efforts, repeated day in and day out." – Robert Collier
+
